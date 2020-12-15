@@ -15,8 +15,8 @@ export default {
     },
     created:function(){
         let self = this
-        //axios.get("https://hotel-pronostico.herokuapp.com/")--> URL GITHUB
-        axios.get("http://127.0.0.1:8000/test/")
+        axios.get("https://pronosticohoteles-api.herokuapp.com/test/")
+        //axios.get("http://127.0.0.1:8000/test/")
             .then((result) =>{
                 self.mensaje = result.data
             })
