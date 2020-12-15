@@ -24,7 +24,7 @@ export default {
         let nombre_hotel = null
         nombre_hotel = document.getElementsByName("nombreHotel")[0].value
         let self = this
-        var post = {
+        let post = {
         nombre: nombre_hotel ,
         };
         axios.post("https://pronosticohoteles-api.herokuapp.com/hotel/verification/",post)
