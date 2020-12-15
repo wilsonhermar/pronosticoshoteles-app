@@ -62,10 +62,10 @@ export default {
   }
 .encabezado h1 {
     font-family: "Homer Simpson UI";
-    color: #1900ff;
-    border: rgba(255, 0, 0, 0.384) 2px solid;
-    margin: 0%;
-    background-color: #567895;
+    color: #000000;
+    border: rgba(52, 152, 219, 0.384) 2px solid;
+    margin: 1%;
+    background-color: #3498DB;
     text-align: center;
 }
 
@@ -74,21 +74,26 @@ export default {
     align-items: center;
     margin:auto;
     font-size: 20px;
-    margin-left: 29%;
+    margin-inline: 24%;
+    justify-content: space-between;
 }
 .encabezado nav button{
     color: #E5E7E9;
     background: #1179e9;
-    border: 1px solid #E5E7E9;
+    font-size: 14px;
+    font-weight:600;
+    border: 1px solid #1179e9;
     border-radius: 5px;
     padding: 10px 20px;
     display: inline-block;
+    cursor: pointer;
 
 }
 .encabezado nav button:hover{
-    color: #283747;
-    background: #E5E7E9;
-    border: 1px solid #E5E7E9;
+    color: #000000;
+    background: #85C1E9;
+    border: 1px solid #85C1E9;
+    cursor: pointer;
 
 }
 

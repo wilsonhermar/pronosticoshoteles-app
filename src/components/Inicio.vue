@@ -31,13 +31,12 @@ export default {
     #inicio{
         width: 100%;
         height: 100%;
-
         display: flex;
         justify-content: center;
         align-items: center;
     }
     #inicio h2{
-        color:blue;
+        color:black;
         font-size: 30px;
     }
 </style>

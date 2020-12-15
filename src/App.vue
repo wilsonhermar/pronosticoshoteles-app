@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo_test.png" alt="" width="5%" height="5%" />
+    <img src="./assets/logo_isa_1.png" alt="" width="25%" height="25%" />
     <Encabezado></Encabezado>
     <div class ="main-component">
       <router-view></router-view>
@@ -25,6 +25,7 @@ export default {
 </script>
 
 <style>
+
 #body {
   margin-top: 0 0 0 0;
 }
@@ -41,7 +42,7 @@ export default {
     padding: 0;
     width: 100%;
     height: 15vh;
-    background-color: #283747;
+    background-color: #1B4F72;
     color: #E5E7E9;
 }
 

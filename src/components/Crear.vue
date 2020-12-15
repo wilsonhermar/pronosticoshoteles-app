@@ -96,13 +96,31 @@ export default {
         display:block;
         display: flex;
         padding: 0%;
-        margin-left: 46%;
-        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     #crear button{
-        margin-left: 48%;
-        margin-top: 20px;
+        color: #E5E7E9;
+        background: #3498DB;
+        font-size: 12px;
+        font-weight:600;
+        border: 1px solid #3498DB;
+        border-radius: 5px;
+        padding: 6px 20px;
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+    #crear button:hover{
+        color: #000000;
+        background: #85C1E9;
+        border: 1px solid #85C1E9;
+        cursor: pointer;
     }
 
     #crear h2{
@@ -110,6 +128,7 @@ export default {
     }
 
     #crear p{
-        margin-left: 33%; 
+        text-align:center;
+        margin-top: 2%;
     }
 </style>
