@@ -23,8 +23,8 @@ export default {
         created:function(){
             let self = this
             let nombre_hotel = null
-            //let aux = "https://hotel-pronostico.herokuapp.com/hotel/delete/"-->URL GITHUB
-            let aux = "http://127.0.0.1:8000/hotel/delete/"
+            let aux = "https://pronosticohoteles-api.herokuapp.com/hotel/delete/"
+            //let aux = "http://127.0.0.1:8000/hotel/delete/"
             nombre_hotel = document.getElementsByName("nombreHotel")[0].value
             let url = aux+nombre_hotel
             axios.delete(url)

@@ -77,8 +77,8 @@ export default {
                 suite: suite_Hotel,
                 precioMinSuite: precioMinSuite_Hotel,
             };
-            //axios.post("https://hotel-pronostico.herokuapp.com/hotel/create/",post)--> URL GITHUB
-            axios.post("http://127.0.0.1:8000/hotel/create/",post)
+            axios.post("https://pronosticohoteles-api.herokuapp.com/hotel/create/",post)
+            //axios.post("http://127.0.0.1:8000/hotel/create/",post)
                 .then((result) =>{
                     self.mensaje = result.data
                 })
