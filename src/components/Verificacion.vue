@@ -33,7 +33,7 @@ export default {
                 self.mensaje = result.data
             })
             .catch((error)=> {
-                self.mensaje = "[NO ES POSIBLE LA CONEXION CON EL SERVIDOR]"
+                self.mensaje = "[NO ES POSIBLE VERIFICAR EL REGISTRO , NO EXISTE EN LA BASE DE DATOS]"
             });
         }
     }

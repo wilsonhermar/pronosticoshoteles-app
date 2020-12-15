@@ -40,7 +40,7 @@ export default {
                                 )
             })
             .catch((error)=> {
-                self.mensaje = "[NO ES POSIBLE LA CONEXION CON EL SERVIDOR]"
+                self.mensaje = "[NO ES POSIBLE BUSCAR EL REGISTRO , NO EXISTE EN LA BASE DE DATOS]"
             });
         }
     }
