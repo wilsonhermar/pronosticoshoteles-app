@@ -21,7 +21,7 @@ export default {
                 self.mensaje = result.data
             })
             .catch((error)=> {
-                self.mensaje = "[LA APLICACION NO ESTA CONECTADA]"
+                self.mensaje = "[NO ES POSIBLE LA CONEXION CON EL SERVIDOR]"
             });
     }
 }

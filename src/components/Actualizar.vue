@@ -83,7 +83,7 @@ export default {
                 self.mensaje = result.data
             })
             .catch((error)=> {
-                self.mensaje = "[EL REGISTRO NO SE PUEDE ACTALIZAR, NO EXISTE EN LA BASE DE DATOS]"
+                self.mensaje = "[NO ES POSIBLE LA CONEXION CON EL SERVIDOR]"
             });
         }
     }
